@@ -1,1 +1,83 @@
-jbdjywevdhje
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chahat Kesharwani</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+      rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/2906287251.js"
+      crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <section class="header">
+      <nav>
+        <a
+          href="https://www.instagram.com/designs4u.in?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+          ><img src="logo.png"
+        /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fas fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="best5.html">RESOUECES</a></li>
+            <li><a href="">ABOUT</a></li>
+            <li><a href="">SERVICES</a></li>
+            <li>
+              <a
+                href="https://www.instagram.com/designs4u.in?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                >CONACT</a
+              >
+            </li>
+          </ul>
+        </div>
+        <i class="fas fa-bars" onclick="showMenu()"></i>
+      </nav>
+
+      <div class="text-box">
+        <h2>5 Best UI Resources</h2>
+        <div class="front">
+          <div class="frontimg">
+            <img class="img11" src="image1.png" width="500px" height="auto" />
+          </div>
+          <div class="frontext">
+            <h3 class="texthide">
+              With many companies now operating online, the success of a
+              business often depends on the type of experience customers get
+              while using a website or a mobile app. Great user experience can
+              not only delight your site visitors, but also solve some of your
+              business challenges, for example, increase sales of an
+              underperforming product category. It comes as no surprise that UX
+              and UI design is now one of the most invaluable skills.
+              <h3>
+                To successfully develop and market a product in 2020,
+                understanding of UX and UI principles is essential. We asked our
+                tech and design teams to put together a list of their favourite
+                resources that they found helpful in the early days of their
+                careers and the ones they use to stay on top of the latest
+                developments regularly. Learn about the top five below.
+              </h3>
+            </h3>
+          </div>
+        </div>
+      </div>
+      <center>
+        <a href="best5.html" class="hero-btn">Click Here to Know more</a>
+      </center>
+    </section>
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
